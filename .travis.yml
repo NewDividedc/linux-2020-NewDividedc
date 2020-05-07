@@ -1,7 +1,7 @@
 language: bash
 
 before_install:
-  - sudo apt-get update && sudo apt-get install -y shellcheck
+  - sudo apt-get update && sudo apt-get install -y shellcheck jq
 
 script:
   - ls -l
