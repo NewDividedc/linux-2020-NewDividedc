@@ -38,7 +38,7 @@ script:
   - bash chap0x04/code/task3.sh -c
   - bash chap0x04/code/task3.sh -d
   - bash chap0x04/code/task3.sh -e
-  - bash chap0x04/code/task3.sh -s /history/apollo/images/appollo-small.gif
+  - bash chap0x04/code/task3.sh -s /history/apollo/images/apollo-small.gif
 
 after_sctipt:
   - /usr/bin/shellcheck chap0x04/code/task1.sh
